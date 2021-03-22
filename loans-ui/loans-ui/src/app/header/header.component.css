@@ -1,0 +1,27 @@
+mat-sidenav-container {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 300px;
+  background-color: rgb(196, 69, 10);
+}
+
+mat-sidenav,
+mat-sidenav-content {
+  padding: 16px;
+}
+
+button.sidenav-button {
+  margin: 10px;
+}
+
+a.loggedin-nav {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  background-color: black;
+  color: white;
+  margin-right:10px;
+  align-content: center;
+}
